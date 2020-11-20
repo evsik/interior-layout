@@ -145,9 +145,11 @@ body {
 .new-catalog-header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .choose-list {
+    border-bottom: 1px solid #6c6c6c;
 }
 
 .choose-list ul {
@@ -156,6 +158,12 @@ body {
 
 .catalog-list {
     display: inline-block;
+    padding-bottom: 10px;
+}
+
+.catalog-list:first-child {
+    margin-right: 20px;
+    border-bottom: 3px solid black;
 }
 
 .catalog-link {
@@ -163,6 +171,14 @@ body {
     font-size: 36px;
     font-weight: 700;
     text-decoration: none;
+}
+
+.catalog-link:hover {
+    color: #212121;
+}
+
+.catalog-link:hover .catalog-list {
+    border-bottom: 3px solid black;
 }
 
 .catalog-link-active {
@@ -176,6 +192,11 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 3px;
+    align-self: center;
+}
+
+.all-list-link:hover {
+    color: #6c6c6c;
 }
 
 .new-catalog-list {
@@ -188,9 +209,96 @@ body {
 }
 
 .items-list {
+    position: relative;
+}
+
+.items-list:hover .items-list-hover {
+    display: block;
+}
+
+.items-list-hover {
+    display: none;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    opacity: 0.9;
+    padding-top: 62px;
+    text-align: center;
+}
+
+.items-list-circle {
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    background-color: #ffffff;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    line-height: 58px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+
+.items-list-head {
+    margin-bottom: 10px;
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.items-list-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
 }
 
 .items-link {
 }
+
+.exclusive-block {
+    display: flex;
+    height: 683px;
+}
+
+.exclusive-item {
+    width: 50%;
+    background: url("images/exclusive-img/exclusive-first.jpg");
+}
+
+.exclusive-item:last-child {
+    background: url("images/exclusive-img/exclusive-second.jpg");
+}
+
+.exclusive-text {
+    padding: 228px 0 0 50px;
+    width: fit-content;
+}
+
+.exclusive-name {
+    margin-bottom: 5px;
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.exclusive-head {
+    margin-bottom: 10px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.exclusive-content {
+    margin-bottom: 25px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
 
 
