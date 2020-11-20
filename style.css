@@ -300,5 +300,37 @@ body {
     line-height: 24px;
 }
 
+.trending-catalog-block {
+    padding-top: 120px;
+}
 
+.trending-catalog-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.trending-catalog-head {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.trending-catalog {
+
+}
+
+.trending-catalog ul {
+    display: flex;
+    flex-flow: wrap;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.trending-catalog-list {
+    margin-bottom: 30px;
+}
+
+.trending-catalog-link {
+}
 
