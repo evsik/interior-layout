@@ -285,8 +285,8 @@ body {
 }
 
 .exclusive-item {
-    flex-grow: 1;
-    /*width: 50%;*/
+    width: 50%;
+    padding: 15% 0 15% 3%;
     background: url("images/exclusive-img/exclusive-first.jpg");
     background-size: cover;
 }
@@ -297,7 +297,7 @@ body {
 }
 
 .exclusive-text {
-    padding: 228px 0 256px 50px;
+    /*padding: 228px 0 256px 50px;*/
     width: fit-content;
 }
 
@@ -320,7 +320,7 @@ body {
 .exclusive-content {
     margin-bottom: 25px;
     color: #6c6c6c;
-    font-size: 14px;
+    font-size: 1.1vw;
     font-weight: 300;
     line-height: 24px;
 }
@@ -620,7 +620,7 @@ body {
     }
 
     .exclusive-text {
-        padding: 178px 0 206px 30px;
+        /*padding: 178px 0 206px 30px;*/
     }
 
     .menu ul {
@@ -635,6 +635,13 @@ body {
         flex-flow: wrap;
     }
 
+    .exclusive-item {
+        width: 100%;
+    }
+
+    .exclusive-content {
+        font-size: 2.1vw;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -658,11 +665,16 @@ body {
     .exclusive-text-another {
         padding: 100px 0 100px 30px;
     }
+
+    .exclusive-content {
+        font-size: 2.4vw;
+    }
 }
 
 @media screen and (max-width: 350px) {
     .trending-catalog-list, .items-list {
         width: 100%;
     }
+
 }
 
