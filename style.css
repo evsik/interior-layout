@@ -608,8 +608,6 @@ body {
     .exclusive-item-another, .exclusive-catalog-items {
         width: 100%;
     }
-
-
 }
 
 @media screen and (max-width: 768px) {
