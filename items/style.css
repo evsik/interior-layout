@@ -20,9 +20,6 @@
     padding: 2%;
 }
 
-.item-nav-list-active {
-}
-
 .item-nav-link {
     text-decoration: none;
     color: #6c6c6c;
@@ -42,9 +39,6 @@
 
 .item-content{
     flex: 1 0 auto;
-}
-
-.related-catalog {
 }
 
 .related-catalog ul {
@@ -81,9 +75,6 @@
 
 .item-images-list {
     display: inline-block;
-}
-
-.item-images-link {
 }
 
 .item-images-picture {

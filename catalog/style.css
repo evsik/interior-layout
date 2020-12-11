@@ -95,7 +95,6 @@
     width: 100%;
 }
 
-
 @media screen and (max-width: 576px) {
     .products-nav ul {
         flex-direction: column;
